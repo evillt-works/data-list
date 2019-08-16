@@ -236,7 +236,7 @@ export default {
         if (isDirectionDown && this.nextPage > totalPages) {
           $state.complete()
           /**
-           * 请求完毕complete事件
+           * 请求到底 complete 事件
            */
           this.$emit('complete')
           // 防止总页数只有第一页的情况
